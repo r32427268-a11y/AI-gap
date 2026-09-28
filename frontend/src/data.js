@@ -1,4 +1,4 @@
-export const API = "http://127.0.0.1:8000";
+export const API = import.meta.env.PROD ? "" : "http://127.0.0.1:8000";
 export const CAREERS = {
   "Data Scientist": ["Python", "Statistics", "Machine Learning", "Deep Learning", "SQL", "NLP"],
   "Web Developer": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Git"],
