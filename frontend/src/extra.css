@@ -1,0 +1,16 @@
+.hero .btn.ghost{padding:14px 22px;font-size:16px}
+.sec{padding:60px 8vw;max-width:1200px;margin:auto}.sec h2{font-size:34px;margin-bottom:28px;text-align:center}
+.narrow{max-width:760px}.narrow .btn{margin-top:24px}
+.feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.ico{font-size:30px;margin-bottom:10px}
+details{border-bottom:1px solid var(--line);padding:16px 0}summary{cursor:pointer;font-weight:600}
+footer{text-align:center;color:var(--mut);padding:40px}
+.drop{display:block;margin:20px 0;padding:40px;text-align:center;border:2px dashed var(--b);border-radius:20px;cursor:pointer;color:var(--ink);font-size:16px}
+.drop:hover{background:rgba(139,123,255,.1)}
+.grid2{display:grid;grid-template-columns:1.2fr 1fr;gap:24px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}
+.tabs button{padding:10px 20px;border-radius:99px;border:1px solid var(--line);background:none;color:var(--mut);cursor:pointer;font-size:15px}
+.tabs button.on{background:var(--b);color:#fff;border-color:var(--b)}
+.bar{height:8px;border-radius:9px;background:rgba(255,255,255,.1);margin-top:8px}.bar i{display:block;height:100%;border-radius:9px;background:linear-gradient(90deg,var(--b),var(--a))}
+.step{display:flex;gap:20px;padding:16px 0;border-bottom:1px solid var(--line);align-items:center}.step b{color:var(--a);min-width:110px}
+@media(max-width:800px){.grid2{grid-template-columns:1fr}}

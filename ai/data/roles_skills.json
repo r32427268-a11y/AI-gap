@@ -1,0 +1,87 @@
+{
+  "roles": {
+    "Data Scientist": {
+      "core_skills": {
+        "python": 5, "pandas": 5, "numpy": 4, "scikit-learn": 5,
+        "sql": 4, "statistics": 5, "machine learning": 5, "data visualization": 3
+      },
+      "nice_to_have_skills": {
+        "deep learning": 3, "tensorflow": 2, "pytorch": 2, "tableau": 2, "aws": 2, "docker": 1
+      }
+    },
+    "Machine Learning Engineer": {
+      "core_skills": {
+        "python": 5, "machine learning": 5, "scikit-learn": 4, "deep learning": 4,
+        "tensorflow": 3, "pytorch": 3, "sql": 3, "git": 4
+      },
+      "nice_to_have_skills": {
+        "docker": 3, "aws": 3, "mlops": 3, "flask": 2, "kubernetes": 2, "fastapi": 2
+      }
+    },
+    "AI Engineer": {
+      "core_skills": {
+        "python": 5, "machine learning": 4, "deep learning": 4, "llm": 4,
+        "prompt engineering": 3, "flask": 3, "git": 4
+      },
+      "nice_to_have_skills": {
+        "rag": 3, "vector database": 3, "langchain": 2, "docker": 2, "aws": 2, "fastapi": 2
+      }
+    },
+    "Frontend Developer": {
+      "core_skills": {
+        "javascript": 5, "html": 5, "css": 5, "react": 5, "git": 4
+      },
+      "nice_to_have_skills": {
+        "typescript": 3, "vite": 2, "tailwind css": 2, "redux": 2, "figma": 1
+      }
+    },
+    "Backend Developer": {
+      "core_skills": {
+        "python": 4, "sql": 4, "flask": 3, "api design": 4, "git": 4, "database design": 4
+      },
+      "nice_to_have_skills": {
+        "docker": 3, "aws": 2, "fastapi": 2, "mongodb": 2, "redis": 1
+      }
+    },
+    "Full Stack Developer": {
+      "core_skills": {
+        "javascript": 5, "html": 4, "css": 4, "react": 4, "python": 3,
+        "sql": 3, "flask": 3, "git": 5, "api design": 3
+      },
+      "nice_to_have_skills": {
+        "mongodb": 2, "docker": 2, "typescript": 2, "aws": 2, "node.js": 2
+      }
+    }
+  },
+  "synonyms": {
+    "js": "javascript",
+    "reactjs": "react",
+    "react.js": "react",
+    "ml": "machine learning",
+    "dl": "deep learning",
+    "cpp": "c++",
+    "c plus plus": "c++",
+    "sklearn": "scikit-learn",
+    "scikit learn": "scikit-learn",
+    "tf": "tensorflow",
+    "nodejs": "node.js",
+    "node js": "node.js",
+    "postgres": "sql",
+    "postgresql": "sql",
+    "mysql": "sql",
+    "data viz": "data visualization",
+    "matplotlib": "data visualization",
+    "seaborn": "data visualization",
+    "genai": "llm",
+    "generative ai": "llm",
+    "large language model": "llm",
+    "large language models": "llm",
+    "vector db": "vector database",
+    "faiss": "vector database",
+    "chromadb": "vector database",
+    "chroma": "vector database",
+    "restful api": "api design",
+    "rest api": "api design",
+    "tailwind": "tailwind css"
+  }
+}

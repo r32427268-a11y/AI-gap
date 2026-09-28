@@ -1,0 +1,6 @@
+# Python (for ai/)
+ai/venv/
+__pycache__/
+*.pyc
+.env
+
